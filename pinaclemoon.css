@@ -1,0 +1,175 @@
+﻿* {
+    box-sizing: border-box;
+}
+
+body {
+background-color:#CBD6E2;
+color: #fcf8fc;
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+}
+
+header {
+    background-color: #0a0a0a;
+    color: #800080;
+    font-size: 150%;
+    text-align: left;
+    background-image: url(moon4.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+    line-height: 400%;
+}
+
+nav {
+    font-weight: bold;
+    font-size: 150%;
+    padding: 1em;
+    float: left;
+    width: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+    font-size: 1.5em;
+}
+
+nav ul li {
+    margin-bottom: 30px;
+}
+
+main {
+    padding-top: 1px;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-bottom: 10%;
+    display: block;
+    overflow: auto;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 18%;
+    margin: 0;
+    margin-top: 0;
+    letter-spacing: 0.25em;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    text-align: center;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#images {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+}
+
+section {
+    float: left;
+    width: 33%;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+footer {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 40px; 
+    margin-bottom: 40px; 
+}
+
+#wrapper {
+    background-color: #520848;
+    background-image: linear-gradient(to bottom, #695d67, #520848);
+    border: solid 1px #2d0033;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    min-width: 960px;
+    max-width: 2048px;
+    box-shadow: 3px 3px 3px #1d1c1c;
+}
+table {
+    border: 2px #1d1c1c;
+    border-style: solid;
+    border-collapse: collapse;
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+.dc {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+td {
+    padding: 0.5em;
+    border: 2px #1d1c1c;
+    border-style: solid;
+    text-align: center;
+}
+th {
+    padding: 0.5em;
+    border: 2px #1d1c1c;
+    border-style: solid;
+    color: #520052;
+}
+.text {
+    text-align: left;
+}
+tr:nth-of-type(odd) {
+    background-color: #695d67;
+}
+tr:nth-of-type(even) {
+    background-color: #333033;
+}
+#special {
+    clear: both;
+}
+form {
+    display: inline-block;
+}
+label {
+    float: left;
+    display: block;
+    text-align: right;
+    width: 140px;
+    padding-right: 5px;
+}
+input {
+    display: block;
+    margin-bottom: 20px;
+}
+textarea {
+    display: block;
+    margin-bottom: 20px;
+}
+input[type="submit"] {
+    margin-left: 140px;
+}
+nav a:hover {
+    color: #da3f24;
+    transition: color 3s linear;
+}
